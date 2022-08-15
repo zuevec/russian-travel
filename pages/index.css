@@ -32,7 +32,7 @@
         width: calc(100% - 48*2px);
     }
   }
-  
+
 @media screen and (max-width: 768px) {
     .header {
         max-width: 720px;
@@ -45,7 +45,7 @@
         max-width: 288px;
         width: calc(100% - 16*2px);
     }
-  }
+}
 
 
 
@@ -54,4 +54,16 @@
     padding: 0;
     max-width: 176px;
     height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+      max-width: 176px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+      max-width: 142px;
+  }
 }
