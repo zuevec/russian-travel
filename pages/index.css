@@ -13,3 +13,45 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegib
 }
+
+.header {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1184px;
+    width: calc(100% - 48*2px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+        width: calc(100% - 48*2px);
+    }
+  }
+  
+@media screen and (max-width: 768px) {
+    .header {
+        max-width: 720px;
+        width: calc(100% - 24*2px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: 288px;
+        width: calc(100% - 16*2px);
+    }
+  }
+
+
+
+.header__logo {
+    margin: 0;
+    padding: 0;
+    max-width: 176px;
+    height: auto;
+}
