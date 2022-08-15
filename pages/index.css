@@ -30,6 +30,7 @@
     .header {
         max-width: 928px;
         width: calc(100% - 48*2px);
+        min-width: 720px;
     }
   }
 
@@ -37,6 +38,7 @@
     .header {
         max-width: 720px;
         width: calc(100% - 24*2px);
+        min-width: 288px;
     }
 }
 
