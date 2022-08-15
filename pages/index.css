@@ -23,6 +23,7 @@
     flex-direction: row;
     justify-content: space-between;
     box-sizing: border-box;
+    margin-top: 28px;
 }
 
 
@@ -46,6 +47,7 @@
     .header {
         max-width: 288px;
         width: calc(100% - 16*2px);
+        margin-top: 16px;
     }
 }
 
