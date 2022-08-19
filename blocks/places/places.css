@@ -1,0 +1,26 @@
+.places {
+	width: clamp(calc(1024px - 48*2px), calc(100% - 48*2px), calc(1280px - 148*2px));
+	margin: 92px auto 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	.places {
+		width: clamp(calc(768px - 24*2px), calc(100% - 24*2px), calc(1024px - 48*2px));
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.places {
+		width: clamp(320px, calc(100% - 16*2px), calc(768px - 24*2px));
+		margin: 88px auto 0;
+	}
+}
+
+
+@media screen and (max-width: 320px) {
+	.places {
+		width: 100%;
+		margin: 64px auto 0;
+	}
+}
