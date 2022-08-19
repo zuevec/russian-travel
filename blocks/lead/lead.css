@@ -7,6 +7,7 @@
 @media screen and (max-width: 1024px) {
 	.lead {
 		width: clamp(720px, calc(100% - 48*2px), calc(1024px - 48*2px));
+    margin: 48px auto 0 auto;
 	}
 }
 
@@ -15,4 +16,6 @@
 		width: 100%;
 	}
 }
+
+
 

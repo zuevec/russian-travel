@@ -12,6 +12,5 @@
 @media screen and (max-width: 720px) {
 	.intro__title {
 		font-size: clamp(32px, 7.5vw, 54px);
-		line-height: 1.07;
 	}
 }

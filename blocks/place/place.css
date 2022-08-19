@@ -13,16 +13,15 @@
 	.place {
 		column-gap: 32px;
 		grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
-		grid-template-rows: auto;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.place {
 		column-gap: 28px;
+    row-gap: 48px;
 		margin: 73px 0 0 0;
-		grid-template-columns: repeat(auto-fill, minmax(340px, max-content));
-		grid-template-rows: auto;
+		grid-template-columns: repeat(auto-fit, minmax(340px, max-content));
 	}
 }
 

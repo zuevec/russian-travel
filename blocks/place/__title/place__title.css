@@ -5,24 +5,24 @@
 	font-weight: 900;
 	font-style: normal;
 	font-size: 72px;
-	line-height: 1.05555555556;
+	line-height: 1.06;
 }
 
 
 @media screen and (max-width: 768px) {
 	.place__title {
-		max-width: 340px;
+		max-width: calc(100% - 2*16px);
 		font-size: 42px;
-		line-height: 1.09523809524;
+		line-height: 46px;
 	}
 }
 
 
 @media screen and (max-width: 320px) {
 	.place__title {
-		margin: 0 auto;
-		width: calc(100% - 2*16px);
+		margin: 0 0 0 16px;
+		max-width: calc(100% - 2*16px);
 		font-size: 32px;
-		line-height: 1.09375;
+		line-height: 1.1;
 	}
 }
