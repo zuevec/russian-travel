@@ -22,14 +22,13 @@
 		column-gap: 28px;
 		margin: 73px 0 0 0;
 		grid-template-columns: repeat(auto-fill, minmax(340px, max-content));
-		grid-template-rows: auto
+		grid-template-rows: auto;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.place {
 		grid-template-columns: 1fr;
-		margin: 0 auto;
 		row-gap: 32px;
 		margin: 50px 0 0 0;
 	}
