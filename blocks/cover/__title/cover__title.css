@@ -13,23 +13,16 @@
 	z-index: 1;
 }
 
-@media screen and (max-width: 505px) {
+@media screen and (max-width: 768px) {
 	.cover__title {
-		font-size: 12vw;
-	}
-}
-
-@media screen and (max-width: 480px) {
-	.cover__title {
-		max-width: 288px;
-		font-size: 32px;
-		line-height: 109%;
+    font-size: 9.38vw;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.cover__title {
-		margin-top: 33px;
-		margin-bottom: 16px;
+    margin: 0 auto 16px;
+    font-size: 32px;
+    line-height: 35px;
 	}
 }
