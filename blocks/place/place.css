@@ -20,8 +20,14 @@
 	.place {
 		column-gap: 28px;
     row-gap: 48px;
-		margin: 73px 0 0 0;
-		grid-template-columns: repeat(auto-fit, minmax(340px, max-content));
+		margin: 72px 0 0 0;
+		grid-template-columns: minmax(300px, 340px) minmax(288px, 352px);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.place {
+    grid-template-columns: repeat(auto-fit, minmax(340px, max-content));
 	}
 }
 
