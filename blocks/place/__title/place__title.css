@@ -8,7 +8,6 @@
 	line-height: 1.06;
 }
 
-
 @media screen and (max-width: 768px) {
 	.place__title {
 		max-width: calc(100% - 10px);
@@ -16,7 +15,6 @@
 		line-height: 46px;
 	}
 }
-
 
 @media screen and (max-width: 320px) {
 	.place__title {

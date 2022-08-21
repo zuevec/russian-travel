@@ -8,7 +8,6 @@
   line-height: 0;
 }
 
-
 @media screen and (max-width: 1024px) {
 	.photo-grid {
 		width: clamp(calc(768px - 24*2px), calc(100% - 48*2px), calc(1024px - 48*2px));
