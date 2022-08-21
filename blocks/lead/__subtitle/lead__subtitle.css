@@ -1,0 +1,27 @@
+.lead__subtitle {
+	margin: 32px auto 0;
+	padding: 0;
+	max-width: 640px;
+	font-family: "Inter", "Arial ", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 120%;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.lead__subtitle {
+		font-size: clamp(16px, 5vw, 30px);
+		line-height: 1.25;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.lead__subtitle {
+		max-width: calc(320px - 16*2px);
+		margin: 16px auto 0;
+		font-size: 16px;
+    line-height: 20px;
+	}
+}
